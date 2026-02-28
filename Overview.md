@@ -22,7 +22,7 @@ Unlike traditional content filtering, which flags isolated messages, this framew
 ```
 behavioral-threat-modeling/
 ├── behavioral_threat_modeling.ipynb    # Main notebook (start here)
-├── README.md                           # This file
+├── Overview.md                           # This file
 ├── requirements.txt                    # Python dependencies
 ├── data/
 │   └── threat_actor_profiles.json      # Exportable actor profile library

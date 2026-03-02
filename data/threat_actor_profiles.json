@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "generated": "2026-03-02T17:22:19.922146",
+    "version": "1.0",
+    "scope": "Child Safety | Harmful Persuasion | Agentic AI | Influence Operations"
+  },
+  "threat_actors": [
+    {
+      "id": "TA-001",
+      "name": "Predatory Groomer",
+      "domain": "Child Safety",
+      "motivation": "Sexual Gratification",
+      "capabilities": [
+        "Social Engineering",
+        "Psychological Profiling",
+        "Platform Evasion"
+      ],
+      "targeted_harm": "Isolation, dependency, sexualization of minors",
+      "time_horizon": "Weeks to months",
+      "ai_amplification": "High",
+      "behavioral_indicators": [
+        "Rapid shift from public to private DMs",
+        "Use of age-appropriate slang",
+        "Introduction of nicknames",
+        "Questions about parental supervision",
+        "Reverse psychology to test compliance"
+      ]
+    },
+    {
+      "id": "TA-002",
+      "name": "Financial Sextortionist",
+      "domain": "Child Safety",
+      "motivation": "Financial Gain",
+      "capabilities": [
+        "Automated Messaging",
+        "Deepfakes",
+        "Identity Theft"
+      ],
+      "targeted_harm": "Financial sextortion, crypto scams",
+      "time_horizon": "Hours",
+      "ai_amplification": "Critical",
+      "behavioral_indicators": [
+        "Unsolicited romantic content",
+        "Immediate request for images",
+        "Sudden pivot to financial demands",
+        "Reference to sharing with contacts",
+        "Cryptocurrency payment requests"
+      ]
+    },
+    {
+      "id": "TA-003",
+      "name": "State-Sponsored APT",
+      "domain": "Influence Operations",
+      "motivation": "Geopolitical Influence",
+      "capabilities": [
+        "AI Agent Orchestration",
+        "Multilingual LLMs",
+        "CIB Networks"
+      ],
+      "targeted_harm": "Election interference, narrative manipulation",
+      "time_horizon": "Months to years",
+      "ai_amplification": "Critical",
+      "behavioral_indicators": [
+        "Coordinated narrative emergence",
+        "Cross-platform consistency",
+        "Non-native syntax patterns",
+        "Coordinated amplification",
+        "Distortion insertion"
+      ]
+    },
+    {
+      "id": "TA-004",
+      "name": "Extremist Recruiter",
+      "domain": "Radicalization",
+      "motivation": "Ideological Radicalization",
+      "capabilities": [
+        "Algorithm Exploitation",
+        "Echo Chamber Construction"
+      ],
+      "targeted_harm": "Recruitment, extremist narrative dissemination",
+      "time_horizon": "Weeks to months",
+      "ai_amplification": "High",
+      "behavioral_indicators": [
+        "Progressive content escalation",
+        "In-group/out-group framing",
+        "Praise and validation loops",
+        "Isolation from moderating contacts",
+        "Exclusive community framing"
+      ]
+    },
+    {
+      "id": "TA-005",
+      "name": "Disinformation Network",
+      "domain": "Influence Operations",
+      "motivation": "Social Destabilization",
+      "capabilities": [
+        "CIB Infrastructure",
+        "Spamouflage",
+        "Microtargeting"
+      ],
+      "targeted_harm": "Institutional trust erosion",
+      "time_horizon": "Ongoing",
+      "ai_amplification": "Critical",
+      "behavioral_indicators": [
+        "Flood of low-quality content",
+        "Simultaneous network activation",
+        "Kernels of truth seeding",
+        "Dormant account activation",
+        "Cross-platform coordination"
+      ]
+    }
+  ],
+  "risk_scores": [
+    {
+      "Threat": "AI-assisted multi-target grooming campaign",
+      "Domain": "Child Safety",
+      "Likelihood": 4,
+      "Impact": 5,
+      "Score": 20,
+      "Priority": "CRITICAL"
+    },
+    {
+      "Threat": "Sextortion bot network targeting teens",
+      "Domain": "Child Safety",
+      "Likelihood": 5,
+      "Impact": 4,
+      "Score": 20,
+      "Priority": "CRITICAL"
+    },
+    {
+      "Threat": "State-sponsored LLM disinformation at election",
+      "Domain": "Influence Ops",
+      "Likelihood": 4,
+      "Impact": 5,
+      "Score": 20,
+      "Priority": "CRITICAL"
+    },
+    {
+      "Threat": "Extremist radicalization via recommendation exploit",
+      "Domain": "Radicalization",
+      "Likelihood": 4,
+      "Impact": 4,
+      "Score": 16,
+      "Priority": "HIGH"
+    },
+    {
+      "Threat": "Multi-turn harmful persuasion campaign",
+      "Domain": "Harmful Persuasion",
+      "Likelihood": 5,
+      "Impact": 3,
+      "Score": 15,
+      "Priority": "HIGH"
+    },
+    {
+      "Threat": "Memory poisoning of deployed AI agent",
+      "Domain": "Agentic AI",
+      "Likelihood": 3,
+      "Impact": 4,
+      "Score": 12,
+      "Priority": "HIGH"
+    },
+    {
+      "Threat": "Single-turn jailbreak for harmful content",
+      "Domain": "General",
+      "Likelihood": 5,
+      "Impact": 2,
+      "Score": 10,
+      "Priority": "HIGH"
+    },
+    {
+      "Threat": "Action loop exploit in agentic workflow",
+      "Domain": "Agentic AI",
+      "Likelihood": 3,
+      "Impact": 3,
+      "Score": 9,
+      "Priority": "MEDIUM"
+    }
+  ],
+  "sample_threats": [
+    {
+      "name": "AI-assisted multi-target grooming campaign",
+      "domain": "Child Safety",
+      "likelihood": 4,
+      "impact": 5
+    },
+    {
+      "name": "Sextortion bot network targeting teens",
+      "domain": "Child Safety",
+      "likelihood": 5,
+      "impact": 4
+    },
+    {
+      "name": "State-sponsored LLM disinformation at election",
+      "domain": "Influence Ops",
+      "likelihood": 4,
+      "impact": 5
+    },
+    {
+      "name": "Memory poisoning of deployed AI agent",
+      "domain": "Agentic AI",
+      "likelihood": 3,
+      "impact": 4
+    },
+    {
+      "name": "Multi-turn harmful persuasion campaign",
+      "domain": "Harmful Persuasion",
+      "likelihood": 5,
+      "impact": 3
+    },
+    {
+      "name": "Action loop exploit in agentic workflow",
+      "domain": "Agentic AI",
+      "likelihood": 3,
+      "impact": 3
+    },
+    {
+      "name": "Extremist radicalization via recommendation exploit",
+      "domain": "Radicalization",
+      "likelihood": 4,
+      "impact": 4
+    },
+    {
+      "name": "Single-turn jailbreak for harmful content",
+      "domain": "General",
+      "likelihood": 5,
+      "impact": 2
+    }
+  ]
+}

@@ -21,7 +21,7 @@ Unlike traditional content filtering, which flags isolated messages, this framew
 
 ```
 behavioral-threat-modeling/
-├── behavioral_threat_modeling.ipynb    # Main notebook (start here)
+├── README.md                            # Main notebook link
 ├── Overview.md                           # This file
 ├── requirements.txt                    # Python dependencies
 ├── data/
